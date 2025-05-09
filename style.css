@@ -1,0 +1,28 @@
+body {
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card {
+    border-radius: 20px;
+  }
+  
+  #question {
+    border-radius: 10px;
+  }
+  
+  .answer-btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+  
+  .answer-btn.correct {
+    background-color: #28a745 !important;
+    color: white;
+  }
+  
+  .answer-btn.wrong {
+    background-color: #dc3545 !important;
+    color: white;
+  }
+  
